@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "perfect": "index.js"
+    "well": "index.js"
   },
   "license": "MIT",
   "dependencies": {
