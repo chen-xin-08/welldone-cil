@@ -12,6 +12,19 @@ program.version(require('./package.json').version )
 helpOptions(program)
 createCommands(program)
 
+// const { promisify } = require('util')
+// const figlet = promisify(require('figlet'))
+// const chalk = require('chalk')
+// const welcomeHandler = async () =>{
+//     console.log(213);
+//     const data = await figlet("welcome to welldone-cil")
+//     console.log(data);
+//     console.log(chalk.green(data));
+// }
+
+// welcomeHandler()
+
+
 // // 增加自己的option --help
 
 // program.option('-C --chen <cdd>' , 'a chen cil')
