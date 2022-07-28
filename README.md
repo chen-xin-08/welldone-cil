@@ -22,6 +22,11 @@ well create <projectName>
 创建组件文件 <组件名> [文件存放路径]   
 well addcpm <componentName> -d [path] 
 
+ 
+<!-- 自动读取后端swagger接口文档，并生成api文件  <swagger文档地址> [文件存放路径] 
+
+well swg <swaggerUrl> -d [path] -->
+
 
 
 
